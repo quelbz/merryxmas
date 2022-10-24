@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <title> xmastree </title>
+    <style>
+        
+
+        body {
+            background-color: papayawhip;
+        }
+        #main-div {
+            
+            text-align: center;
+            width: 500px;
+            height: 400px;
+            border-style: double;
+            margin-top: 50pt;
+            background-color: white;
+            border-width: 10px;
+            border-radius: 10px;
+        }
+
+        #pasko {
+            font-size: 40pt;
+            font-family: 'Mulish', sans-serif;
+        }
+
+        #tree {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <!-- <p id="for_interval_sample"></p> -->
+    <div id="main-div">
+        <iconify-icon id="tree" icon="emojione-v1:christmas-tree" width="110" height="110"></iconify-icon>
+        <p id="pasko">Merry Christmas!</p>
+        <button id="btn_start" onclick="start();">Start</button>
+        <button id="btn_stop" onclick="stop();">Stop</button>
+        <br>
+        <p id="rgb"><strong></strong></p>
+        <script src="xmastree.js"></script>
+    </div>
+    </center>
+</body>
+</html>
